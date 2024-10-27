@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page-2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              nav: "#000000",
+              fontfr: "#083F9B",
+              fontto: "#7F56D9",
+              textcol: "#FFFFFF",
+              hero: "#0E38CD",
+              herobgfr: "#04016C",
+              herobgto: "#4A16BD",
+              webpagefr: "#2E08C7",
+              webpageto: "#7E08C7",
+              warningbg: "#F17228",
+              coursefr: "#739FE8",
+              courseto: "#4F18CA",
+              subto: "#E441FF",
+              subfr1: "#1901F8",
+              subfr2: "#00B3FF",
+              testfr: "#D9ECFF",
+              quickfr: "#931BBD",
+              quickto: "#477AE3",
+              footerfr: "#0351AE",
+              footerto: "#A542C8",
+              footer2: "#001AFF",
+            },
+            fontFamily: {
+              qwigley: ["Qwigley", "cursive"],
+              rightious: ["rightious"],
+            },
+            fontSize: {
+              "7xl": "5rem",
+            },
+            backgroundImage: {
+              "hero-sub":
+                "url('C:\Users\shank\OneDrive\Desktop\land task\sub.png')",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="grid grid-cols-1 md:grid-cols-12 my-8">
+      <div
+        class="col-span-12 flex flex-col h-fit justify-center items-center md:flex-row md:justify-evenly"
+      >
+        <div>
+          <div
+            class="flex justify-center items-center col-span-12 md:col-span-6"
+          >
+            <img src="Logo.jpg" class="h-64" />
+          </div>
+        </div>
+
+        <div class="my-2">
+          <ul
+            class="flex gap-x-10 text-nav font-bold font-rightious text-xl md:text-base"
+          >
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="my-2">
+          <div class="flex justify-start items-start col-span-12 md:col-span-6">
+            <img src="cart.jpg" class="h-10" />
+          </div>
+        </div>
+        <div class="my-2">
+          <ul class="flex gap-x-10 text-nav text-xl md:text-base">
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+        <div class="flex justify-center items-center my-4">
+          <button
+            class="bg-white text-textcol px-6 py-1 w-48 h-16 font-semibold border bg-gradient-to-r from-fontfr to-fontto rounded-lg"
+          >
+            Signup
+          </button>
+        </div>
+      </div>
+
+      <div class="col-span-12 bg-gradient-to-r from-herobgfr to-herobgto">
+        <div class="grid grid-cols-12">
+          <div
+            class="col-span-12 md:col-span-6 mt-10 flex justify-center items-center h-96"
+          >
+            <div>
+              <h2 class="text-lg font-rightious text-textcol">
+                Successful coaches are visionaries
+              </h2>
+              <p class="text-textcol font-rightious text-6xl">
+                Good <span class="text-hero">coaching</span> is
+              </p>
+              <p class="text-textcol font-rightious text-6xl">
+                good teaching &
+              </p>
+              <p class="text-textcol font-rightious text-6xl">nothing else.</p>
+              <div class="flex gap-x-10 justify-start items-center h-50">
+                <button
+                  class="bg-warningbg text-white px-4 py-1 font-semibold rounded-lg"
+                >
+                  View Courses
+                </button>
+                <div class="my-2">
+                  <ul class="text-textcol text-sm md:text-base">
+                    <li><a href="#">Get Free Consultation</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="flex gap-x-4 items-center justify-center m-2.5 bg-white p-4 rounded-lg"
+              >
+                <input
+                  class="w-60"
+                  type="text"
+                  placeholder="What do you want to learn today?"
+                />
+                <button
+                  class="bg-gradient-to-r from-fontfr to-fontto text-white px-4 py-1 font-semibold rounded flex justify-center items-center"
+                >
+                  <span class="material-symbols-outlined text-white">
+                    search
+                  </span>
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-span-12 md:col-span-6 flex flex-wrap gap-x-4 justify-around items-center"
+          >
+            <img src="breaker.png" class="h-36" />
+            <div class="flex-col gap-y-4 justify-center items-start">
+              <p class="text-lg font-rightious text-textcol">Shyam</p>
+              <p class="text-lg font-rightious text-textcol">
+                In a coaching role, you ask the
+              </p>
+              <p class="text-lg font-rightious text-textcol">
+                questions and rely more on your
+              </p>
+              <p class="text-lg font-rightious text-textcol">
+                staff, who become the experts, to
+              </p>
+              <p class="text-lg font-rightious text-textcol">
+                provide the information.
+              </p>
+            </div>
+
+            <div
+              class="flex my-16 justify-center items-center col-span-12 md:col-span-6"
+            >
+              <img src="Women.png" class="h-96" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap gap-x-4 justify-evenly items-center h-28 col-span-12 md:flex md:justify-evenly bg-gradient-to-r from-webpagefr to-webpageto"
+      >
+        <img src="spotify.png" class="h-10" />
+        <img src="amazon.png" class="h-10" />
+        <img src="spotify.png" class="h-10" />
+        <img src="cisco.png" class="h-10" />
+        <img src="logitech.png" class="h-10" />
+        <img src="amazon.png" class="h-10" />
+      </div>
+
+      <div class="col-span-12 bg-testfr">
+        <div class="grid grid-cols-12">
+          <div
+            class="col-span-12 md:col-span-6 flex justify-center items-center h-60"
+          >
+            <img src="Ellipse 118.png" class="h-24" />
+          </div>
+          <div
+            class="flex flex-col gap-y-4 justify-center items-start col-span-12 md:col-span-6"
+          >
+            <p class="text-nav font-rightious text-5xl pl-20">
+              Featured <span class="text-hero">Course</span>
+            </p>
+            <p class="text-nav font-rightious text-2xl">
+              The feature courses are we invented our teaching part
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-wrap gap-y-8 gap-x-8 h-fit justify-evenly items-center mt-10 col-span-12"
+        >
+          <div
+            class="flex flex-col md:flex md:justify-evenly bg-textcol rounded-xl"
+          >
+            <img src="loc.png" class="h-44 w-72" />
+            <div class="flex gap-x-16 justify-star items-center">
+              <span class="px-5">1,957 Students</span><span>01h 59m</span>
+            </div>
+            <p class="text-base text-nav pt-5 pl-5">
+              Motion Graphics: Create a Nice
+            </p>
+            <p class="text-base text-nav pl-5">Typography Animation</p>
+
+            <div class="flex gap-x-28 justify-star items-center">
+              <span class="px-5">Rs.499</span
+              ><span class="px-5"
+                ><img src="my cart.png" class="h-11 w-11"
+              /></span>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex md:justify-evenly bg-textcol rounded-xl"
+          >
+            <img src="adv js.png" class="h-44 w-72" />
+            <div class="flex gap-x-16 justify-star items-center">
+              <span class="px-5">9,575 Students</span><span>01h 59m</span>
+            </div>
+            <p class="text-base text-nav pt-5 pl-5">
+              Advance PHP knowledge with JS to
+            </p>
+            <p class="text-base text-nav pl-5">make smart web</p>
+
+            <div class="flex gap-x-28 justify-star items-center">
+              <span class="px-5">Rs.499</span
+              ><span class="px-5"
+                ><img src="my cart.png" class="h-11 w-11"
+              /></span>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex md:justify-evenly bg-textcol rounded-xl"
+          >
+            <img src="js.png" class="h-44 w-72" />
+            <div class="flex gap-x-16 justify-star items-center">
+              <span class="px-5">2,957 Students</span><span>02h 49m</span>
+            </div>
+            <p class="text-base text-nav pt-5 pl-5">
+              Education Software and PHP and JS
+            </p>
+            <p class="text-base text-nav pl-5">System Script</p>
+
+            <div class="flex gap-x-28 justify-star items-center">
+              <span class="px-5">Rs.499</span
+              ><span class="px-5"
+                ><img src="my cart.png" class="h-11 w-11"
+              /></span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap mt-10 gap-y-8 gap-x-8 h-fit justify-evenly items-center col-span-12"
+        >
+          <div
+            class="flex flex-col md:flex md:justify-evenly bg-textcol rounded-xl"
+          >
+            <img src="stock.png" class="h-44 w-72" />
+            <div class="flex gap-x-16 justify-star items-center">
+              <span class="px-5">5,457 Students</span><span>01h 49m</span>
+            </div>
+            <p class="text-base text-nav pt-5 pl-5">
+              The Complete Financial Analyst
+            </p>
+            <p class="text-base text-nav pl-5">Training & Investing</p>
+
+            <div class="flex gap-x-28 justify-star items-center">
+              <span class="px-5">Rs.499</span
+              ><span class="px-5"
+                ><img src="my cart.png" class="h-11 w-11"
+              /></span>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex md:justify-evenly bg-textcol rounded-xl"
+          >
+            <img src="market.png" class="h-44 w-72" />
+            <div class="flex gap-x-16 justify-star items-center">
+              <span class="px-5">595 Students</span><span>01h 49m</span>
+            </div>
+            <p class="text-base text-nav pt-5 pl-5">
+              Marketing 2023: Complete Guide To
+            </p>
+            <p class="text-base text-nav pl-5">Instagram Growth</p>
+
+            <div class="flex gap-x-28 justify-star items-center">
+              <span class="px-5">Rs.499</span
+              ><span class="px-5"
+                ><img src="my cart.png" class="h-11 w-11"
+              /></span>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex md:justify-evenly bg-textcol rounded-xl"
+          >
+            <img src="3d.png" class="h-44 w-72" />
+            <div class="flex gap-x-16 justify-star items-center">
+              <span class="px-5">458 Students</span><span>03h 00m</span>
+            </div>
+            <p class="text-base text-nav pt-5 pl-5">
+              Learn 3D Modelling and Design
+            </p>
+            <p class="text-base text-nav pl-5">for Beginners</p>
+
+            <div class="flex gap-x-28 justify-star items-center">
+              <span class="px-5">Rs.499</span
+              ><span class="px-5"
+                ><img src="my cart.png" class="h-11 w-11"
+              /></span>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center my-16">
+          <button
+            class="bg-white text-textcol px-6 py-1 w-48 h-16 font-semibold border bg-gradient-to-r from-fontfr to-fontto rounded-lg"
+          >
+            Explore courses
+          </button>
+        </div>
+      </div>
+
+      <div class="col-span-12 bg-gradient-to-r from-coursefr to-courseto">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12 md:col-span-12 h-fit">
+            <div
+              class="col-span-12 md:col-span-6 flex mt-20 flex-col justify-center items-center"
+            >
+              <h2 class="text-5xl font-rightious text-textcol">
+                Why <span class="text-hero">learn</span> with our courses?
+              </h2>
+              <p class="text-textcol font-rightious text-2xl pt-5">
+                We are providing the best courses and top classes.And
+              </p>
+              <p class="text-textcol font-rightious text-2xl">
+                extradinery placement training.....
+              </p>
+            </div>
+            <div
+              class="flex flex-wrap gap-x-24 items-center justify-center m-2.5 p-4"
+            >
+              <div class="flex flex-col md:flex md:justify-evenly">
+                <img src="Icon.png" class="h-24 w-24" />
+                <div class="flex-col gap-x-16 justify-star items-center">
+                  <h2 class="text-textcol">01. Learn</h2>
+                  <p class="text-textcol">Learn continually. There is always</p>
+                </div>
+              </div>
+              <span class="flex justify-end items-center"
+                ><img src="Line.png" />
+              </span>
+              <div class="flex flex-col md:flex md:justify-evenly">
+                <img src="Grad.png" class="h-24 w-24" />
+                <div class="flex-col gap-x-16 justify-star items-center">
+                  <h2 class="text-textcol">02. Graduate</h2>
+                  <p class="text-textcol">
+                    Be bold,be courageous, be your best.
+                  </p>
+                </div>
+              </div>
+              <span class="flex justify-end items-center"
+                ><img src="Line.png" />
+              </span>
+              <div class="flex flex-col md:flex md:justify-evenly">
+                <img src="work.png" class="h-24 w-24" />
+                <div class="flex-col gap-x-16 justify-star items-center">
+                  <h2 class="text-textcol">03. Work</h2>
+                  <p class="text-textcol">Great companies are built in</p>
+                  <p class="text-textcol">the office,with hard work put</p>
+                  <p class="text-textcol">in by team.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 bg-testfr">
+        <div class="grid grid-cols-12">
+          <div
+            class="flex flex-col gap-y-4 justify-center items-center col-span-12 md:col-span-12"
+          >
+            <p class="text-nav font-rightious text-5xl mt-16">
+              Top <span class="text-hero">Categories</span>
+            </p>
+            <p class="text-nav font-rightious text-2xl">
+              100+ unique online course list designs
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-wrap gap-y-4 h-fit md:h-fit m-10 justify-evenly items-center col-span-12"
+        >
+          <div
+            class="flex flex-col justify-center items-center md:justify-center h-64 w-44 bg-textcol rounded-lg"
+          >
+            <img src="Digtal.png" class="h-24 w-24 mt-4" />
+
+            <p class="text-base text-nav pt-5">Digtal</p>
+            <p class="text-base text-nav">Marketing</p>
+            <p class="text-base text-nav mt-4">25 Courses</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center md:justify-center h-64 w-44 bg-textcol rounded-lg"
+          >
+            <img src="Web.png" class="h-24 w-24 mt-4" />
+
+            <p class="text-base text-nav pt-5">Web</p>
+            <p class="text-base text-nav">Development</p>
+            <p class="text-base text-nav mt-4">16 Courses</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center md:justify-center h-64 w-44 bg-textcol rounded-lg"
+          >
+            <img src="Art.png" class="h-24 w-24 mt-4" />
+
+            <p class="text-base text-nav pt-5">Art &</p>
+            <p class="text-base text-nav">Humanities</p>
+            <p class="text-base text-nav mt-4">76 Courses</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center md:justify-center h-64 w-44 bg-textcol rounded-lg"
+          >
+            <img src="Personal.png" class="h-24 w-24 mt-4" />
+
+            <p class="text-base text-nav pt-5">Personal</p>
+            <p class="text-base text-nav">Development</p>
+            <p class="text-base text-nav mt-4">22 Courses</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center md:justify-center h-64 w-44 bg-textcol rounded-lg"
+          >
+            <img src="IT.png" class="h-24 w-24 mt-4" />
+
+            <p class="text-base text-nav pt-5">IT and</p>
+            <p class="text-base text-nav">Software</p>
+            <p class="text-base text-nav mt-4">110 Courses</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center md:justify-center h-64 w-44 bg-textcol rounded-lg"
+          >
+            <img src="Graphic.png" class="h-24 w-24 mt-4" />
+
+            <p class="text-base text-nav pt-5">Graphic</p>
+            <p class="text-base text-nav">Design</p>
+            <p class="text-base text-nav mt-4">85 Courses</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12 md:col-span-12 h-96">
+            <div
+              class="col-span-12 md:col-span-12 mt-5 p-10 xl:mt-28 xl:mx-80 flex flex-col justify-center items-center bg-gradient-to-r from-subfr2 via-subfr1 to-subto rounded-lg"
+            >
+              <h2 class="text-5xl font-rightious text-textcol">
+                Subscribe For Get Update
+              </h2>
+              <h2 class="text-5xl font-rightious text-textcol">
+                Every New Courses
+              </h2>
+              <p class="text-textcol font-rightious text-2xl pt-5">
+                20k+ students daily learn with Eduvi. Subscribe for new courses.
+              </p>
+              <div
+                class="flex gap-x-4 items-center justify-center m-2.5 bg-white p-4 rounded-lg"
+              >
+                <input
+                  class="w-60"
+                  type="text"
+                  placeholder="What do you want to learn today?"
+                />
+                <button
+                  class="bg-gradient-to-r from-fontfr to-fontto text-white px-4 py-1 font-semibold rounded flex justify-center items-center"
+                >
+                  <span class="material-symbols-outlined text-white">
+                    search
+                  </span>
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12 md:col-span-12 mt-32 h-96">
+            <div
+              class="col-span-12 md:col-span-12 xl:mt-1 xl:mx-80 flex flex-col justify-center items-center rounded-lg"
+            >
+              <img src="video.png" class="h-96" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 mt-20 bg-gradient-to-r from-testfr to-testfr">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12 md:col-span-12 h-fit">
+            <div
+              class="col-span-12 md:col-span-6 flex mt-20 flex-col justify-center items-center"
+            >
+              <h2 class="text-5xl font-rightious text-hero">Testimonials</h2>
+              <p class="text-gray-600 font-rightious text-2xl pt-5">
+                What our student say about us
+              </p>
+            </div>
+            <div
+              class="flex flex-wrap gap-y-10 gap-x-24 items-center justify-center m-2.5 p-4"
+            >
+              <div
+                class="flex flex-col md:flex md:justify-evenly bg-textcol p-2.5"
+              >
+                <img src="review.png" class="h-24 w-24 ml-32" />
+                <div class="flex-col gap-x-16 m-5 justify-start items-center">
+                  <p class="text-gray-600">
+                    Such an amazing traniner and easily understand the entire
+                  </p>
+                  <p class="text-gray-600">
+                    syllabus, and the guidence will be super and good to the way
+                  </p>
+                  <p class="text-gray-600">of explaning.</p>
+                  <img src="stars.png " class="mt-5" />
+                </div>
+              </div>
+              <div
+                class="flex flex-col md:flex md:justify-evenly bg-textcol p-2.5"
+              >
+                <img src="review.png" class="h-24 w-24 ml-32" />
+                <div class="flex-col gap-x-16 m-5 justify-start items-center">
+                  <p class="text-gray-600">
+                    Such an amazing traniner and easily understand the entire
+                  </p>
+                  <p class="text-gray-600">
+                    syllabus, and the guidence will be super and good to the way
+                  </p>
+                  <p class="text-gray-600">of explaning.</p>
+                  <img src="stars.png " class="mt-5" />
+                </div>
+              </div>
+              <div
+                class="flex flex-col md:flex md:justify-evenly bg-textcol p-2.5"
+              >
+                <img src="review.png" class="h-24 w-24 ml-32" />
+                <div class="flex-col gap-x-16 m-5 justify-star items-center">
+                  <p class="text-gray-600">
+                    Such an amazing traniner and easily understand the entire
+                  </p>
+                  <p class="text-gray-600">
+                    syllabus, and the guidence will be super and good to the way
+                  </p>
+                  <p class="text-gray-600">of explaning.</p>
+                  <img src="stars.png " class="mt-5" />
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row-reverse">
+              <img src="left.png" /> <img src="right.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-12 mt-20 bg-gradient-to-r from-quickfr to-quickto">
+        <div class="grid grid-cols-1 md:grid-cols-12">
+          <div class="col-span-12 md:col-span-12 h-fit">
+            <div
+              class="mt-20 justify-evenly items-center flex flex-wrap gap-y-2"
+            >
+              <div
+                class="flex flex-col justify-start items-center m-10 col-span-12 md:col-span-12"
+              >
+                <h2 class="text-5xl font-rightious text-nav">Connect</h2>
+                <img src="ask.png" class="h-32 w-56 mt-1" />
+                <p class="text-nav font-rightious pt-5">
+                  Sri Jagannath Nivas,8-1-164/345/A/1,
+                </p>
+                <p class="text-nav font-rightious">
+                  Pragati Colony, Mailardevpally, Nawab
+                </p>
+                <p class="text-nav font-rightious">Saheb Kunta, Hyd, 500005</p>
+              </div>
+
+              <div class="flex flex-col col-span-12 md:col-span-12">
+                <h2 class="text-3xl font-rightious text-nav">Classes</h2>
+                <ul class="flex-col gap-x-10 text-nav text-sm md:text-base">
+                  <li><a href="#">Classroom courses</a></li>
+                  <li><a href="#">Virtual classroom courses</a></li>
+                  <li><a href="#">E-learning courses</a></li>
+                  <li><a href="">Video Courses</a></li>
+                  <li><a href="">Offline Courses</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-col col-span-12 md:col-span-12">
+                <h2 class="text-3xl font-rightious text-nav">Community</h2>
+                <ul class="flex-col gap-x-10 text-nav text-sm md:text-base">
+                  <li><a href="#">Learners</a></li>
+                  <li><a href="#">Parteners</a></li>
+                  <li><a href="#">Developers</a></li>
+                  <li><a href="">Transactions</a></li>
+                  <li><a href="">Blog</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-col col-span-12 md:col-span-12">
+                <h2 class="text-3xl font-rightious text-nav">Quick links</h2>
+                <ul class="flex-col gap-x-10 text-nav text-sm md:text-base">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Professional Education</a></li>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="">Admissions</a></li>
+                  <li><a href="">Testimonial</a></li>
+                  <li><a href="">Programs</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-col col-span-12 md:col-span-12">
+                <h2 class="text-3xl font-rightious text-nav">More</h2>
+                <ul class="flex-col gap-x-10 text-nav text-sm md:text-base">
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Investors</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="">Privacy</a></li>
+                  <li><a href="">Help</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="flex flex-wrap gap-x-4 justify-center items-center h-28 col-span-12 bg-gradient-to-r from-footerto to-footerfr"
+            >
+              <img
+                src="Instagram.png"
+                class="rounded-full w-16 h-16 bg-white"
+              />
+              <img src="WhatsApp.png" class="rounded-full w-16 h-16 bg-white" />
+              <img src="Twitter.png" class="rounded-full w-16 h-16 bg-white" />
+              <img src="LinkedIn.png" class="rounded-full w-16 h-16 bg-white" />
+              <img src="YouTube.png " class="rounded-full w-16 h-16 bg-white" />
+            </div>
+            <div
+              class="flex flex-wrap justify-center items-center h-18 col-span-12 bg-footer2"
+            >
+              <p class="text-textcol">
+                Copyright @ 2023 askmeidentity. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
